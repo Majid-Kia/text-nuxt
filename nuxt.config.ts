@@ -20,8 +20,6 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: 'Majid-Kia/text-nuxt',
-    buildAssetsDir: 'assets',
     head: {
       meta: [
         {
