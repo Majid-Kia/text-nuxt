@@ -19,6 +19,10 @@ export default defineNuxtConfig({
     display: 'swap',
   },
 
+  image: {
+    dir: 'assets/images',
+  },
+
   app: {
     head: {
       meta: [
