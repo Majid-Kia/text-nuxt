@@ -10,7 +10,8 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint --fix",
     "format": "prettier --write ",
-    "precommit": "yarn lint-staged"
+    "precommit": "yarn lint-staged",
+    "deploy": "gh-pages --dotfiles -d .output/public"
   },
   "lint-staged": {
     "*.{js,ts,vue}": [
